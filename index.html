@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{APP_NAME}}</title>
+  <meta name="description" content="{{APP_NAME}} — {{APP_TAGLINE}}">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="/">{{APP_NAME}}</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/privacy">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>{{APP_NAME}}</h1>
+    <p class="lead">{{APP_TAGLINE}}</p>
+
+    <h2>What {{APP_NAME}} does</h2>
+    <p>{{APP_DESCRIPTION}}</p>
+
+    <h2>How we use your Google data</h2>
+    <div class="card">
+      <p>
+        {{APP_NAME}} lets you sign in with your Google Account. When you do, we request
+        only the permissions needed to provide the app's features:
+      </p>
+      <ul>
+        <li>{{GOOGLE_DATA_USE}}</li>
+      </ul>
+      <p class="muted">
+        We never sell your data or use it for advertising. See our
+        <a href="/privacy">Privacy Policy</a> for full details.
+      </p>
+    </div>
+
+    <h2>Contact</h2>
+    <p>Questions? Email us at <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>.</p>
+  </main>
+
+  <footer>
+    &copy; 2026 {{APP_NAME}} &middot; <a href="/privacy">Privacy Policy</a>
+  </footer>
+</body>
+</html>
